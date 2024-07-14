@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <!-- start nav  -->
+    <div class="nav-menu position-fixed top-0 min-vh-100 d-flex">
+        <div
+          class="nav d-flex flex-column justify-content-between min-vh-100 p-4"
+        >
+          <div class="links">
+            <ul class="list-unstyled">
+              <li id="search" class="menu py-2" >Search</li>
+              <li id="categories" class="menu py-2" >Categories</li>
+              <li id="area-link" class="menu py-2" >Area</li>
+              <li id="gredient" class="menu py-2" >Ingredients</li>
+              <li id="contact" class="menu py-2">Contact Us</li>
+            </ul>
+          </div>
+          <div class="footer">
+            <div class="icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="footer-p">
+              <p>Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nav-header d-flex flex-column justify-content-between p-4 bg-white text-black text-center" >
+          <img src="image/logo.png" alt="" />
+          <i class="fa-solid open-close-icon fa-2x fa-align-justify closee" ></i>
+          <div>
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </div>
+      <!-- start nav  -->
+
+
+<!-- start meals  -->
+      <section class="mealstwo d-block">
+
+        <div class="container">
+            <div class="row child py-4 g-4" id="rowmeals">
+              
+            </div>
+        </div>
+    </section>
+
+
+
+<section class="mealsthree d-none ">
+    <div class="container">
+        <div class="row py-5 text" id="rowdetailes">
+         
+        </div>
+      </div>
+</section>
+<!-- End meals  -->
+ <!-- start catogary  -->
+
+<section class="categary py-5 d-none " id="categary">
+  <div class="container">
+    <div class="row g-4 categaryfilter" id="rowcategary">
+      
+    
+    </div>
+  </div>
+</section>
+
+
+<section class="categary-two d-none " id="categarytwo">
+  <div class="container">
+    <div class="row demo py-5 g-4" id="inerrcategory">
+      
+    </div>
+  </div>
+</section>
+
+<section class="categary-three  d-none " id="categarythree">
+  <div class="container">
+    <div class="row py-5 text" id="categarydetails">
+     
+    </div>
+  </div>
+</section>
+
+
+<!-- start catogary  -->
+ <!-- start Area  -->
+<section class="areaone d-none ">
+
+
+          <div class="container ">
+            <div class="row reaaa py-5 g-4" id="areaone">
+            
+               
+              
+            </div>
+          </div>
+        </section>
+
+
+        <section class="areatwo d-none ">
+          <div class="container">
+              <div class="row demoo py-5 g-4" id="rowarea">
+               
+              </div>
+            </div>
+      </section>
+
+
+      <section class="areathree d-none">
+        <div class="container">
+            <div class="row py-5 text" id="areadetails">
+            
+            </div>
+          </div>
+    </section>
+
+
+<!-- End Area -->
+ <!-- start gredient  -->
+        <section class="gredientone d-none ">
+          <div class="container">
+            <div class="row gdata py-5" id="gradientdata">
+             
+            </div>
+          </div>
+        </section>
+
+
+        <section class="gredientwo d-none">
+
+          <div class="container">
+                      <div class="row gredtwo py-5 g-4" id="rowgfilter">
+                       
+                      </div>
+                    </div>
+      </section>
+
+
+
+
+      <section class="gradientthree d-none">
+        <div class="container">
+            <div class="row py-5 text" id="greddetailes">
+            
+            </div>
+          </div>
+    </section>
+
+
+ <!-- End gredient  -->
+
+<!-- start contact  -->
+ <section class="contact d-none ">
+ <div class="container">
+  <div class="row py-5 g-4 " id="rowData"><div class="contact min-vh-100 d-flex justify-content-center align-items-center">
+<div class="container w-75 text-center">
+<div class="row g-4">
+  <div class="col-md-6">
+      <input id="nameInput" oninput="Validation(this)" type="text" class="form-control" placeholder="Enter Your Name" fdprocessedid="5j3fi4">
+      <div id="nameAlert" class="alert alert-danger w-100 mt-2 d-none">
+          Special characters and numbers not allowed
+      </div>
+  </div>
+  <div class="col-md-6">
+      <input id="emailInput" oninput="Validation(this)" type="email" class="form-control " placeholder="Enter Your Email" fdprocessedid="rm2img">
+      <div id="emailAlert" class="alert alert-danger w-100 mt-2 d-none">
+          Email not valid *exemple@yyy.zzz
+      </div>
+  </div>
+  <div class="col-md-6">
+      <input id="phoneInput" oninput="Validation(this)" type="text" class="form-control " placeholder="Enter Your Phone" fdprocessedid="wsboro">
+      <div id="phoneAlert" class="alert alert-danger w-100 mt-2 d-none">
+          Enter valid Phone Number
+      </div>
+  </div>
+  <div class="col-md-6">
+      <input id="ageInput" oninput="Validation(this)" type="number" class="form-control " placeholder="Enter Your Age" fdprocessedid="ff25to">
+      <div id="ageAlert" class="alert alert-danger w-100 mt-2 d-none">
+          Enter valid age
+      </div>
+  </div>
+  <div class="col-md-6">
+      <input id="passwordInput" oninput="Validation(this)" type="password" class="form-control " placeholder="Enter Your Password" fdprocessedid="9y0xrp">
+      <div id="passwordAlert" class="alert alert-danger w-100 mt-2 d-none">
+          Enter valid password *Minimum eight characters, at least one letter and one number:*
+      </div>
+  </div>
+  <div class="col-md-6">
+      <input id="repasswordInput" oninput="Validation(this)" type="password" class="form-control " placeholder="Repassword" fdprocessedid="6eckmc">
+      <div id="repasswordAlert" class="alert alert-danger w-100 mt-2 d-none">
+          Enter valid repassword 
+      </div>
+  </div>
+</div>
+<button id="submitBtn" disabled="" class="btn btn-outline-danger px-2 mt-3">Submit</button>
+</div>
+</div> </div>
+</div>
+</section>
+<!-- start contact  -->
+
+
+  <!-- start search input  -->
+<section class="search d-none">
+  <div class="container py-4 w-75 m-auto ">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+        
+                <input  type="text" class="form-control" name="search"  placeholder="search By Name" id="searchName">
+              </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="mb-3">
+        
+                <input   type="text" class="form-control" name="search"  placeholder="search By First Letter" id="searchLetter">
+              </div>
+            
+        </div>
+    </div>
+    <div class="row" id="rowsearch">
+
+    </div>
+</div>
+</section>
+
+
+  <!-- End search input  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
